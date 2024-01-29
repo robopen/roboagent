@@ -14,7 +14,7 @@ Run `bash install.sh` for creating conda environment and installing dependencies
 
 ## Dataset
 
-Follow the instructions on the RoboSet page for downloading the dataset https://robopen.github.io/roboset/
+Follow the instructions on the RoboSet page for downloading the dataset https://robopen.github.io/roboset/ (In case a link doesn't work there, here is a set of alternate links https://huggingface.co/datasets/jdvakil/RoboSet-Teleoperation/tree/main )
 
 ## Multi-Task Training template
 
