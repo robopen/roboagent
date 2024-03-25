@@ -30,7 +30,7 @@ python train.py --dataset_dir <path to data directory> --ckpt_dir <where to save
 
 ## For evaluating on hardware 
 
-Omit the `--multi_task` flag for single task policies. Make sure other parameters are same as training
+Omit the `--multi_task` flag for single task policies. Make sure other parameters are same as training. Here is a reference link to policy weights https://huggingface.co/jdvakil/RoboAgent/blob/main/roboagent.ckpt
 ```
 python evaluate.py -e rpFrankaRobotiqDataRP02-v0 --ckpt_dir <where to load ckpts> --policy_class ACT --kl_weight 10 --chunk_size 20 --hidden_dim 512 --batch_size 64 --dim_feedforward 3200 --num_repeat 10 --task_name pick_butter --multi_task
 ```
